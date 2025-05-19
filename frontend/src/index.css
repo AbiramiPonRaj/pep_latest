@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* styles.css (or any other CSS file you are using) *//* Style for the top navigation bar */
+.top-navbar {
+  background-color: #386ef5;
+  color: white;
+  height: 36px;
+}
+
+/* Style for the bottom navigation bar */
+.bottom-navbar {
+  background-color: #ffffff;
+  color: black;
+  height: 36px;
+}
+
+/* Add any additional styling as needed */
+.tableHeading {
+  font-weight: bold; /* Make the text bold */
+  color: blue; /* Change the text color to blue */
+}

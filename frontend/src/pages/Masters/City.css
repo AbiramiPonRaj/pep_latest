@@ -1,0 +1,50 @@
+.container {
+  text-align: center;
+}
+
+.text-field {
+  & .MuiOutlinedInput-root {
+    & fieldset {
+      border-color: #0d6efd;
+      border-width: 1px;
+    }
+
+    &:hover fieldset {
+      border-color: #038514;
+      border-width: 1px;
+    }
+
+    &.Mui-focused fieldset {
+      border-color: #1307f5;
+      border-width: 1px;
+    }
+  }
+}
+
+.form-control {
+  width: 100%;
+}
+
+.input-label {
+  color: #ff0000;
+}
+
+.select {
+  color: #ff0000;
+
+  &::before {
+    border-color: #ff0000 !important;
+  }
+}
+
+.MuiTableCell-root {
+  padding: 1px 1px;
+}
+
+.blocked-icon {
+  color: gray;
+}
+
+.unblocked-icon {
+  color: gray;
+}
